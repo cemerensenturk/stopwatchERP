@@ -26,6 +26,9 @@ body {
 }
 
 .watch {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 	text-align: center;
     background-image: url(./img/erp2.png);
 	background-size: cover;
@@ -40,6 +43,7 @@ body {
 	font-size: 4.7rem;
 	font-weight: 300;
 	margin-bottom: 1rem;
+	margin-top: -0.5rem;
     color: var(--primary);
 }
 
@@ -75,7 +79,7 @@ body {
 	background-color: var(--dark);
 }
 
-.cat{
+.cat, .catLink{
 	display: flex;
     justify-content: center;
 }
