@@ -19,7 +19,7 @@ body {
 .heading1{
     display: flex;
     justify-content: center;
-    margin-top: 20rem;
+    margin-top: 8rem;
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
@@ -27,9 +27,10 @@ body {
 
 .watch {
 	text-align: center;
-    background-image: url(erp2.png);
+    background-image: url(./img/erp2.png);
+	background-size: cover;
 	width: 100%;
-	max-width: 360px;
+	max-width: 85%;
 	margin: 2rem auto;
 	padding: 1rem 2rem;
 	border-radius: 1rem;
@@ -72,4 +73,14 @@ body {
 
 .controls button:active {
 	background-color: var(--dark);
+}
+
+.cat{
+	display: flex;
+    justify-content: center;
+}
+
+.cat img{
+	max-width: 40%;
+	border-radius: 31%;
 }
